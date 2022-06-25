@@ -1,0 +1,20 @@
+:root {
+  --primary-white-color: #ffffff;
+  --accent-color: #28a745;
+  --prrimary-text-color: #333333;
+  --secondary-text-color: #ffffff;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  background-color: #f4f4f4;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
