@@ -18,3 +18,23 @@ body {
 .list {
   list-style: none;
 }
+
+/* header */
+.header {
+  background-color: #5e5e5e;
+}
+/* logo */
+.header-logo {
+  font-size: 35px;
+  line-height: 1.21;
+  color: var(--secondary-text-color);
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+.header-nav-link {
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+}
