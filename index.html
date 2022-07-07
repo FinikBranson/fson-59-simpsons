@@ -14,6 +14,8 @@
     <meta name="theme-color" content="#ffffff" />
 
     <title>Finance Ledger</title>
+
+
     <!-- Шрифти -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,80 +24,128 @@
       rel="stylesheet"
     />
 
+    <!-- Normalize -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- стили -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- header -->
-    <header class="header">
-      <nav class="header-nav">
-        <a class="header-logo link" href="./index.html"
-          ><img src="./images/logo/logo.svg" alt="Logo" /><span class="accent">Finance</span>
-          Ledger</a
-        >
 
-        <ul class="header-nav-list list">
-          <li class="header-nav-item"><a href="" class="header-nav-link link">Home</a></li>
-          <li class="header-nav-item"><a href="" class="header-nav-link link">About</a></li>
-          <li class="header-nav-item"><a href="" class="header-nav-link link">Cases</a></li>
-          <li class="header-nav-item"><a href="" class="header-nav-link link">Blog</a></li>
-          <li class="header-nav-item"><a href="" class="header-nav-link link">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+    <!-- header -->
+
+
+    <div class="container header-hero">
+    <header class="header">
+      
+        <nav class="header-nav">
+          <a class="header-logo link" href="./index.html"><img src="./images/logo/logo.svg" alt="Logo" /><span
+              class="accent">Finance</span>
+            Ledger</a>
+        
+          <ul class="header-nav-list list">
+            <li class="header-nav-item"><a href="" class="header-nav-link link">Home</a></li>
+            <li class="header-nav-item"><a href="" class="header-nav-link link">About</a></li>
+            <li class="header-nav-item"><a href="" class="header-nav-link link">Cases</a></li>
+            <li class="header-nav-item"><a href="" class="header-nav-link link">Blog</a></li>
+            <li class="header-nav-item"><a href="" class="header-nav-link link">Contact</a></li>
+          </ul>
+        </nav>
+      
+      
+    </header>   
+    
+      <!-- hero -->
+      <section class="hero">
+        <h1 class="hero-title">The Sky Is The Limit</h1>
+        <p class="hero-text">We provide world class financial assistance</p>
+        <button class="hero-button" type="button">
+          <svg class="icon-angle-right" width="9" height="18">
+            <use href="./images/icons.svg#icon-angle-right"> </use>
+          </svg>
+          Read More</button>
+      </section>
+
+      </div>
 
     <!-- main -->
     <main>
-      <!-- hero -->
-      <section>
-        <h1>The Sky Is The Limit</h1>
-        <p>We provide world class financial assistance</p>
-        <button type="button">> Read More</button>
-      </section>
-
       <!-- about -->
       <section>
-        <h2>About</h2>
-        <ul>
-          <li>
-            <h3>Investmant Banking</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!
-            </p>
-          </li>
+        <div class="container">
+          <h2 class="visually-hidden">About</h2>
+          <ul class="about-list">
+            <li>
 
-          <li>
-            <h3>Portfolio Manager</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!
-            </p>
-          </li>
+              <div class="about-icon-thumb">
+                <svg class="icon" width="35" height="35">
+                  <use href="./images/icons.svg#icon-university"></use>
+            
+                </svg>
+              </div>
 
-          <li>
-            <h3>Tax & Custudio</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!
-            </p>
-          </li>
-        </ul>
+              <h3 class="about-title">Investmant Banking</h3>
+              <p class="about-description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!
+              </p>
+            </li>
+          
+            <li>
+
+              <div class="about-icon-thumb">
+                <svg class="icon" width="35" height="35">
+                  <use href="./images/icons.svg#icon-book-reader"></use>
+              
+                </svg>
+              </div>
+
+              <h3 class="about-title">Portfolio Manager</h3>
+              <p class="about-description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!
+              </p>
+            </li>
+          
+            <li>
+
+              <div class="about-icon-thumb">
+                <svg class="icon" width="35" height="35">
+                  <use href="./images/icons.svg#icon-pencil-alt"></use>
+              
+                </svg>
+              </div>
+
+              <h3 class="about-title">Tax & Custudio</h3>
+              <p class="about-description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!
+              </p>
+            </li>
+          </ul>
+        </div>
+        
       </section>
 
       <!-- solutions -->
       <section>
-        <img
-          src="./images/solutions/solutions.jpg"
-          alt="Team of six people"
-          width="680"
-          height="460"
-        />
-        <p>What you are looking for</p>
-        <h2>We provide bespoke solutions</h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
-          quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores
-          itaque rerum temporibus doloribus iste maiores deleniti?
-        </p>
-        <button type="button">> Read More</button>
+        <div class="container solutions">
+          <img src="./images/solutions/solutions.jpg" alt="Team of six people" width="680" height="460" />
+          
+          <div class="solutions-description">
+            <p class="subtitle">What you are looking for</p>
+            <h2 class="solutions-title">We provide bespoke solutions</h2>
+            <p class="solutions-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
+              quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores
+              itaque rerum temporibus doloribus iste maiores deleniti?
+            </p>
+            <button class="solutions-button" type="button">Read More</button>
+
+          </div>
+          
+        </div>
+        
       </section>
 
       <!-- Cases -->
