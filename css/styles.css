@@ -3,6 +3,7 @@
   --accent-color: #28a745;
   --prrimary-text-color: #333333;
   --secondary-text-color: #ffffff;
+  --hero-text: #e9e9e9;
 }
 
 body {
@@ -38,3 +39,38 @@ body {
   line-height: 1.56;
   color: var(--secondary-text-color);
 }
+
+/* Hero */
+
+.hero {
+  background-color: #5e5e5e;
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--hero-text);
+}
+
+.hero-text {
+  font-size: 22px;
+  line-height: 1.67;
+  text-align: center;
+  color: var(--hero-text);
+}
+
+.button {
+  background-color: var(--accent-color);
+  border-radius: 5px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--primary-white-color);
+  border: none;
+  padding: 10px 30px;
+}
+
