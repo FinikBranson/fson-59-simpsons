@@ -1,0 +1,42 @@
+.about-list {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 19px;
+  padding-right: 64px;
+  padding-left: 64px;
+  gap: 71px;
+}
+
+.about-icon-thumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  width: 67px;
+  height: 67px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  fill: var(--primary-white-color);
+}
+
+.about-title {
+  margin-bottom: 16px;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+
+  text-align: center;
+
+  color: var(--primary-text-color);
+}
+
+.about-description {
+  line-height: 1.56;
+
+  text-align: center;
+
+  color: var(--primary-text-color);
+}
