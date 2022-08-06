@@ -1,5 +1,5 @@
 .cases {
-  margin-bottom: 47px;
+  padding: 50px 0;
 }
 
 .cases .container {
@@ -42,6 +42,21 @@ h3.cases-title {
 .cases-card {
   display: flex;
   flex-wrap: wrap;
+}
+
+.cases-link {
+  display: block;
+
+  transition: transform 500ms linear;
+}
+
+.cases-link:hover,
+.cases-link:focus {
+  transform: scale(1.1);
+}
+
+.cases-link-wrapper {
+  overflow: hidden;
 }
 
 .cases-card img {

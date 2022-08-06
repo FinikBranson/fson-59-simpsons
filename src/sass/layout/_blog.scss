@@ -30,5 +30,11 @@
   }
 
   &__btn {
+    @extend .button;
+    min-width: 167px;
+    min-height: 50px;
+    border: 1px solid var(--primary-white-color);
+    border-radius: 5px;
+    background-color: transparent;
   }
 }
