@@ -17,18 +17,18 @@
   padding: 0;
   white-space: nowrap;
   -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   background-color: #f4f4f4;
 }
 
-.container, .blog {
+.container {
   max-width: 1360px;
   margin: 0 auto;
   padding: 0 28px;
@@ -149,7 +149,12 @@ button {
   max-width: 1360px;
   margin: 0 auto;
   padding: 279px 0 284px 0;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/city0.jpg);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../images/city0.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -252,7 +257,7 @@ button {
   margin-bottom: 47px;
 }
 
-.cases .container, .cases .blog {
+.cases .container {
   padding-right: 28px;
   padding-left: 28px;
 }
@@ -291,11 +296,11 @@ h3.cases-title {
   height: 213px;
 }
 
-.cases-card li:not(:nth-child(4n+4)) {
+.cases-card li:not(:nth-child(4n + 4)) {
   margin-right: 8px;
 }
 
-.cases-card li:not(:nth-last-child(-n+4)) {
+.cases-card li:not(:nth-last-child(-n + 4)) {
   margin-bottom: 7px;
 }
 
@@ -323,4 +328,46 @@ h3.cases-title {
   margin-bottom: 17px;
   line-height: 1.56;
   color: var(--primary-white-color);
-}/*# sourceMappingURL=index.css.map */
+}
+
+.team {
+  padding-top: 49px;
+  padding-bottom: 59px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+.team img {
+  height: 280px;
+}
+.team-who {
+  margin-bottom: 16px;
+  font-size: 20px;
+  line-height: 1.65;
+}
+.team h2 {
+  margin-bottom: 34px;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+}
+.team-lorem {
+  margin-bottom: 45px;
+  font-size: 18px;
+  line-height: 1.56;
+}
+.team-card-title {
+  margin: 13px 0 12px 0;
+  font-size: 25px;
+  line-height: 1.27;
+}
+.team-card-text {
+  font-size: 18px;
+  line-height: 1.56;
+}
+.team-card {
+  display: flex;
+}
+.team-card li:not(:last-child) {
+  margin-right: 20px;
+}
