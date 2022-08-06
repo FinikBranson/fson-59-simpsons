@@ -1,12 +1,11 @@
-.solutions {
+.solutions .container {
   display: flex;
-  background-color: var(--accent-color);
-
-  margin-bottom: 50px;
+  padding: 0;
 }
 
 .solutions-description {
   padding: 84px 44px 84px 30px;
+  background-color: var(--accent-color);
 }
 
 .solutions-title {
