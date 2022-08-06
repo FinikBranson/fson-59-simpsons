@@ -1,0 +1,34 @@
+.blog {
+  @extend .container;
+  display: flex;
+
+  &__inner {
+    padding: 112px 44px 113px 30px;
+    background-color: #0284d0;
+  }
+
+  &__date {
+    margin-bottom: 5px;
+    font-size: 20px;
+    line-height: 1.65;
+    color: var(--primary-white-color);
+  }
+
+  &__title {
+    margin-bottom: 26px;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1.26;
+    color: var(--primary-white-color);
+  }
+
+  &__text {
+    margin-bottom: 17px;
+    line-height: 1.56;
+
+    color: var(--primary-white-color);
+  }
+
+  &__btn {
+  }
+}
